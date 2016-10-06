@@ -4,6 +4,13 @@
     li {
         display: table-cell;
         text-align:center;
+        transition: width 1s linear;
         width:20%;
+        &.focused {
+            width: 40%;
+        }
+        &.not-focused {
+            width: 16%;
+        }
     }
 }
