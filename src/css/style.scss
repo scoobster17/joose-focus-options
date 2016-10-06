@@ -1,0 +1,24 @@
+@charset 'UTF-8';
+
+@import '_reset';
+@import 'global/_common';
+@import 'components/_focus-options';
+
+// demo styles
+.focus-options {
+    li {
+        padding:200px 10px;
+    }
+}
+
+$browsers:  (chrome,            #f2b635),
+            (firefox,           #f19a2a),
+            (internet-explorer, #00caff),
+            (safari,            #00a0e6),
+            (opera,             #f25648);
+
+@each $browser-name, $browser-bg-color in $browsers {
+    .#{$browser-name} {
+        background-color: $browser-bg-color;
+    }
+}

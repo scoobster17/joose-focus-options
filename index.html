@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Joose Focus Options</title>
+    <link rel="stylesheet" type="text/css" href="dist/css/style.css">
+</head>
+<body>
+    <main>
+        <h1>Joose Focus Options</h1>
+        <p>
+            Below is an area which, on hover, focuses a certain area by accentuating
+            it.
+        </p>
+        <ul class="focus-options" data-component="focus-options" data-focus-type="expand" data-direction="horizontal">
+            <li class="chrome">
+                Area 1
+            </li>
+            <li class="firefox">
+                Area 2
+            </li>
+            <li class="internet-explorer">
+                Area 3
+            </li>
+            <li class="safari">
+                Area 4
+            </li>
+            <li class="opera">
+                Area 5
+            </li>
+        </ul>
+    </main>
+    <script type="text/javascript" src="./src/js/joose-focus-options.js"></script>
+    <script type="text/javascript">
+        joose.focusOptions.init();
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+{
+  "name": "joose-focus-options",
+  "version": "1.0.0",
+  "description": "Hoverable multi-section area which visually focuses desired content",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.0",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "reset-css": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scoobster17/joose-focus-options.git"
+  },
+  "keywords": [
+    "Joose",
+    "Focus",
+    "options",
+    "focus",
+    "options",
+    "hover",
+    "hoverable"
+  ],
+  "author": "Phil Gibbins <scoobster17@hotmail.co.uk> (http://www.philgibbins.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scoobster17/joose-focus-options/issues"
+  },
+  "homepage": "https://github.com/scoobster17/joose-focus-options#readme"
+}
